@@ -1,5 +1,5 @@
 document.querySelector('button').addEventListener('click', makeReq)
-const placeholder = document.querySelector('div');
+const placeholder = document.querySelector('.results');
 
 function makeReq(){
   console.log("inside makeReq")
